@@ -21,16 +21,18 @@ to look up, and you must continue reading lines until there is no more input.
 Note: Names consist of lowercase English alphabetic letters and are first names only. """
 n = int(input())
 phonebook = {}
-def func_phonebook():
-    for each in range(n):
-        name = input()
-        num = int(input())
-        phonebook[name] = num
-    for string in range(n):
+for each in range(n):
+    name = input().split()
+    if name[0] not in phonebook:
+        phonebook[name[0]] = name[1]
+
+while True:
+    try:
         string_input = input()
+
         if string_input in phonebook:
-            return "{}={}".format(string_input,phonebook[string_input])
+            print("{}={}".format(string_input, phonebook[string_input]))
         else:
-            return "not found"
-print(func_phonebook())
-# print(func_phonebook())
+            print("Not found")
+    except EOFError:
+        break
