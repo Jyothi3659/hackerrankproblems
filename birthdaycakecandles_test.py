@@ -14,3 +14,4 @@ class Birthdaycake(unittest.TestCase):
 
     def test_negative(self):
         self.assertEqual(birthdayCakeCandles([1,2,3,3,-5,-5,-4]),(2))
+
