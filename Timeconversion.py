@@ -10,5 +10,5 @@ def timeConversion(s):
     return str(time[:-2])
 
 
-s = ("10:40:45PM")
+s = ("07:40:45PM")
 print(timeConversion(s))
