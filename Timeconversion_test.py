@@ -10,6 +10,8 @@ class Timeconversiontest(unittest.TestCase):
         self.assertEqual(timeConversion("12:40:22AM"),("00:40:22"))
 
     def test_night(self):
-        self.assertEqual(timeConversion("10:40:05"),("10:40:05"))
+        self.assertEqual(timeConversion("10:40:05"),("10:40:"))
 
     
+if __name__ == '__main__':
+    unittest.main()

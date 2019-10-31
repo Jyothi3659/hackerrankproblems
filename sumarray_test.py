@@ -26,4 +26,5 @@ class SumarrayTests(unittest.TestCase):
         self.assertEqual(bigSumArray([1, 10*10, 100/5, 1000, 1000086]), (1001207))
 
 
-
+if __name__ == '__main__':
+    unittest.main()
