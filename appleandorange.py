@@ -73,7 +73,7 @@ def countapplesandoranges(s, t, a, b, apples, oranges):
             bcount += 1
     print(acount)
     print(bcount)
-    #     (or)
+    #  -----(or)-----
     # appleCount = 0
     # orangeCount = 0
     # for appl in apples:
