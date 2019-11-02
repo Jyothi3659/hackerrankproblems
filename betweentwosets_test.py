@@ -4,7 +4,7 @@ from betweentwosets import getTotalX
 
 class Betweentwosets(unittest.TestCase):
     def test_high(self):
-        self.assertEqual(getTotalX([2,4],[16,32,96]),(4))
+        self.assertEqual(getTotalX([2,4],[16,32,96]),(3))
 
     def test_highrange(self):
         self.assertEqual(getTotalX([2,6],[45,70]),(0))
