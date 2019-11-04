@@ -16,3 +16,8 @@ def sockMerchant(n, ar):
             previous = ar[each]
 
     return pairs
+
+
+n = [9]
+ar = [1,2,3,5,5,4,9,9,5]
+print(sockMerchant(n,ar))
