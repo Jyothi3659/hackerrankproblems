@@ -8,7 +8,7 @@ def get(keyboard,drive,cost):
     return spent
 
 
-keyboard = [-10,-30,10]
-drive = [-20,40,-10]
-cost = 15
+keyboard = [2,5,4]
+drive = [10,3,4]
+cost = 10
 print(get(keyboard,drive,cost))
