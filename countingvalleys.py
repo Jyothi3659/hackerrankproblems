@@ -41,6 +41,7 @@
 #     \/\/
 # He enters and leaves one valley.
 
+
 def countingValleys(n, s):
     level = valley = 0
     for i in range(n):
@@ -52,6 +53,7 @@ def countingValleys(n, s):
             level -= 1
 
     return valley
+
 
 n = 8
 s = ("UDDDUDUU")
