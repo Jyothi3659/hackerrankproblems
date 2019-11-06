@@ -27,14 +27,15 @@
 # 15
 
 
-def solve(meal_cost,tip_percent,tax_percent):
-    tip = meal_cost * tip_percent /100
-    tax = meal_cost * tax_percent /100
-    totalcost = meal_cost + tip + tax
-    return totalcost
+def restaurent(meal_cost,tip_percent,tax_percent):
+    tip = meal_cost * tip_percent / 100
+    tax = meal_cost * tax_percent / 100
+    total_cost = meal_cost + tip + tax
+    print(round(total_cost))
 
 
 meal_cost = 12.00
 tip_percent = 20
 tax_percent = 8
-print(solve(meal_cost,tip_percent,tax_percent))
+restaurent(meal_cost,tip_percent,tax_percent)
+
