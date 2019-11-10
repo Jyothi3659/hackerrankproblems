@@ -7,7 +7,7 @@ def designerPdfViewer(h, word):
 
 
 h = [1,2,3,4,5]
-word = 'aza'
+word = "aza"
 print(designerPdfViewer(h,word))
 
 
