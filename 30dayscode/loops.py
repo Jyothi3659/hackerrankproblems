@@ -32,7 +32,7 @@
 # 2 x 10 = 20
 
 
-n = int(input('enter any number'))
+n = int(input('enter any number:-'))
 for i in range(1,11):
     p = n * i
     print('{} * {} = {}'.format(n, i, p))
