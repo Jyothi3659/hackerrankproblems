@@ -1,6 +1,7 @@
 import unittest
 from countingvalleys import countingValleys
 
+
 class Countingvalleys(unittest.TestCase):
     def test_normal(self):
         self.assertEqual(countingValleys((8),('UDDDUDUU')),(1))
@@ -14,5 +15,5 @@ class Countingvalleys(unittest.TestCase):
     def test_du(self):
         self.assertEqual(countingValleys((10),('UDUDUDUDUD')),(0))
 
-    def test_loeca(self):
+    def test_lowca(self):
         self.assertEqual(countingValleys((10),('ududududud')),(0))
